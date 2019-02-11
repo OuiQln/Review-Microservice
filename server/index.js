@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const parser = require('body-parser');
+const db = require('../database/index');
 //  import router
 
 const app = express();
