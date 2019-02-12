@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReviewAggregate from './ReviewAggregate';
 
 class ReviewApp extends Component {
   constructor(props) {
@@ -11,11 +12,8 @@ class ReviewApp extends Component {
   render() {
     const { loaded } = this.state;
     return (
-      <div>
-        <p>
-          Hello from React:
-          { loaded.toString() }
-        </p>
+      <div className="review-container">
+        <ReviewAggregate />
       </div>
     );
   }
