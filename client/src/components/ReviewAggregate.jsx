@@ -1,5 +1,6 @@
 import React from 'react';
 import WriteReview from './WriteReview';
+import style from './reviewAggregate.css';
 
 /*
   needs to have a overall rating component
@@ -7,10 +8,10 @@ import WriteReview from './WriteReview';
   advanced filter div at the bottom
 */
 
-function ReviewAggregate(props) {
+function ReviewAggregate() {
   return (
     <>
-      <div className="review-aggregator">
+      <div className={style.aggReview}>
         <WriteReview />
       </div>
       <div className="advanced-filters">
