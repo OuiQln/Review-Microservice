@@ -1,4 +1,7 @@
 .aggReview {
   text-align: center;
   line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
 }

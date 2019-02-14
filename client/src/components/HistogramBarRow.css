@@ -1,0 +1,86 @@
+
+div {
+  margin: 0;
+  font-weight: 400;
+  display: block;
+}
+
+span {
+  margin: 0;
+  font-weight: 400;
+}
+
+.HistogramBarRow {
+  margin-bottom: 8px;
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+}
+
+.HistogramStarLabel {
+  width: 50px;
+  font-size: 12px;
+  color: #636262;
+  line-height: 20px;
+  float: left;
+  text-transform: uppercase;
+}
+
+.HistogramStarLabelText {
+  margin: 0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #636262;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+}
+
+.HistogramBar {
+  margin-top: 5px;
+  width: 180px;
+  background-color: #f2f2f2;
+  float: left;
+  overflow: hidden;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  text-align: left;
+}
+
+/* .HistogramBar {
+  background-color :rgb(242, 242, 242);
+  color: rgb(0, 0, 0);
+  display: block;
+  float: left;
+  font-family: "DIN Next W01 Regular", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 10px;
+  line-height: 24px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: left;
+  text-size-adjust: 100%;
+  width: 180px;
+} */
+
+.HistogramFullBar {
+  width: 90%;
+  height: 10px;
+  background-color: #000000;
+  float: left;
+}
+
+.HistAbsLabel {
+  top: -3px;
+  padding-left: 15px;
+  color: #636262;
+  font-size: 20px;
+  position: relative;
+  line-height: normal;
+}
