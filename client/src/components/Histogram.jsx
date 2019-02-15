@@ -6,7 +6,7 @@ function Histogram() {
   function createHist() {
     const hist = [];
     for (let i = 0; i < 5; i += 1) {
-      hist.push(<HistogramBarRow />);
+      hist.push(<HistogramBarRow key={i} />);
     }
     return hist;
   }
