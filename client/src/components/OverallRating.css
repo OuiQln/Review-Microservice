@@ -1,0 +1,44 @@
+div {
+  margin: 0;
+  font-weight: 400;
+  display: block;
+}
+
+.OverallRatingContainer {
+  margin-bottom: 15px;
+  margin-top: 0 !important;
+  margin: 0;
+  height: auto !important;
+  width: auto !important;
+  padding-left: 0;
+  float: left;
+}
+
+.OverallRatingContainerStar {
+  margin-left: 43px;
+  float: left;
+  line-height: 20px;
+}
+
+.OverallRatingEntry {
+  width: 266px;
+  text-align: center;
+  clear: both;
+}
+
+.RatingOverall {
+  overflow: hidden;
+  clear: both;
+}
+
+.Label {
+  font-family: UniqloPro;
+  font-weight: 400!important;
+  display: block;
+  float: none;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  padding-right: 0;
+  padding-bottom: 3px;
+}

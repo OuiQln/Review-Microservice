@@ -1,6 +1,7 @@
 import React from 'react';
 import WriteReview from './WriteReview';
 import Histogram from './Histogram';
+import OverallRating from './OverallRating';
 import style from './reviewAggregate.css';
 
 /*
@@ -13,6 +14,7 @@ function ReviewAggregate() {
   return (
     <>
       <div className={style.aggReview}>
+        <OverallRating />
         <Histogram />
         <WriteReview />
       </div>

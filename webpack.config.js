@@ -26,9 +26,6 @@ module.exports = {
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,
         loader: 'file-loader',
-        // options: {
-        //   limit: 10000,
-        // },
       },
     ],
   },
