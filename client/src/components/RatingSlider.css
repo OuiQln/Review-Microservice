@@ -1,0 +1,96 @@
+.RatingContainerSlider {
+  /* display: inline-block; */
+  border: none;
+  margin: 0;
+  font-weight: 400;
+  text-align: left !important;
+  line-height: 20px;
+  height: 41px;
+  margin-bottom: 13px;
+}
+
+.RatingEntry {
+  width: 266px;
+  text-align: center;
+  margin-bottom: 15px;
+  clear: both;
+  display: block;
+  margin: 0;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px; 
+}
+
+.RatingHeader {
+  font-size: 16px;
+  display: inline-block;
+  float: left;
+  text-align: left;
+  font-weight: bold;
+  width: 60px;
+  padding-right: 15px;
+  text-transform: uppercase;
+  line-height: normal;
+  padding-bottom: 3px;
+  margin: 0;
+}
+
+.RatingSlider {
+  display: inline-block;
+  clear: both !important;
+  font-size: 16px;
+  padding-bottom: 18px;
+  zoom: 1;
+  position: relative;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+.RatingSliderLabel {
+  font-family: UniqloPro,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-weight: 400!important;
+  top: 20px;
+  color: #636262;
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+.RatingSliderImage {
+  float: left;
+  margin: 0;
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Sprite {
+  margin: 0 auto;
+  border-width: 0;
+  overflow: hidden;
+  line-height: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  border: 0;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.RatingSliderLabelTwo {
+  font-family: UniqloPro,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+  font-weight: 400!important;
+  top: 20px;
+  color: #636262;
+  font-size: 12px;
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
