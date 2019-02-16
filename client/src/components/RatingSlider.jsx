@@ -1,9 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './RatingSlider.css';
 
 //  this component needs name and label and rating props
 
-function RatingSlider() {
+function RatingSlider(props) {
+  const { title, high, low } = props;
 
   function sliderRating() {
     const numStr = (((Math.random() * 4) + 1).toFixed(1));
@@ -17,17 +19,23 @@ function RatingSlider() {
   return (
     <div className={style.RatingContainerSlider}>
       <div className={style.RatingEntry}>
-        <div className={style.RatingHeader}>Quality</div>
+        <div className={style.RatingHeader}>{title}</div>
       </div>
       <div className={style.RatingSlider}>
-        <div className={style.RatingSliderLabel}>Poor</div>
+        <div className={style.RatingSliderLabel}>{high}</div>
         <div className={style.RatingSliderImage}>
           <img className={style.Sprite} src={`${sliderImg}${sliderRating()}.png`} alt="slider rating" />
         </div>
-        <div className={style.RatingSliderLabelTwo}>Perfect</div>
+        <div className={style.RatingSliderLabelTwo}>{low}</div>
       </div>
     </div>
   );
 }
+
+RatingSlider.propTypes = {
+  title: PropTypes.string.isRequired,
+  low: PropTypes.string.isRequired,
+  high: PropTypes.string.isRequired,
+};
 
 export default RatingSlider;
