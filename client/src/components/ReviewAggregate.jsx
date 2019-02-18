@@ -14,9 +14,11 @@ import style from './reviewAggregate.css';
 */
 
 function ReviewAggregate() {
+  //  this component needs a prop determining if
+  //  filtering is active
   let filterText;
 
-  if (true) {
+  if (false) {
     filterText = <span className={style.basedOnFilters}>Calculated based on filtering:</span>;
   }
 
