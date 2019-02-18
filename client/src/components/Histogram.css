@@ -1,0 +1,46 @@
+@font-face {
+  font-family: UniqloPro;
+  src: url('./UniqloPro.ttf');
+  font-style: normal;
+  font-weight: 100;
+}
+
+div {
+  margin: 0;
+  font-weight: 400;
+  display: block;
+}
+
+.histogram {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  overflow: hidden;
+  height: auto;
+  width: 290px;
+  text-align: left;
+}
+
+.histTitle {
+  display: block;
+  zoom: 1;
+  overflow: hidden;
+  padding: 0 0 20px 0;
+  text-align: center; 
+  line-height: 1;
+}
+
+.histTitleText {
+  font-family: UniqloPro;
+  font-weight: 400!important;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 20px;  
+}
+
+.histContent {
+  margin: 0;
+  font-weight: 400;
+  clear: both;
+  padding: 0;
+}
