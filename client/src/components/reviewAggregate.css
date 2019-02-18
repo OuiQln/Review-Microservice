@@ -5,3 +5,15 @@
   justify-content: space-between;
   font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
 }
+
+.basedOnFilters {
+  font-size: 16px;
+  color: #636262;
+  line-height: 1.5;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-align: left;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
+}

@@ -10,14 +10,24 @@ import style from './reviewAggregate.css';
     total num of stars
     total num of reviews
   }
+  this function needs to know if the app is filtering
 */
 
 function ReviewAggregate() {
+  let filterText;
+
+  if (true) {
+    filterText = <span className={style.basedOnFilters}>Calculated based on filtering:</span>;
+  }
+
   return (
     <>
       <div className={style.aggReview}>
-        <OverallRating />
-        <Histogram />
+        <div>
+          {filterText}
+          <OverallRating />
+          <Histogram />
+        </div>
         <WriteReview />
       </div>
       <div className="advanced-filters">

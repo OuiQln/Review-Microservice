@@ -3,14 +3,8 @@ import style from './Histogram.css';
 import HistogramBarRow from './HistogramBarRow';
 
 function Histogram() {
-  // function createHist() {
-  //   const hist = [];
-  //   for (let i = 0; i < 5; i += 1) {
-  //     hist.push(<HistogramBarRow key={i} />);
-  //   }
-  //   return hist;
-  // }
-
+  //  this component needs to take in the number of reviews per star
+  //  { fiveStar, fourStar, threeStar, twoStar, oneStar, numOfReviews } = props;
   return (
     <div className={style.histogram}>
       <div className={style.histTitle}>

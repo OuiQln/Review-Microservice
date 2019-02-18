@@ -3,6 +3,7 @@ import PropType from 'prop-types';
 import style from './HistogramBarRow.css';
 
 //  this component needs the number of reviews per its star designation
+//  and the total number of reviews to calculate the width
 
 function HistogramBarRow(props) {
   const width = `${Math.floor(Math.random() * 100)}%`;

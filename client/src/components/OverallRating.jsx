@@ -26,8 +26,8 @@ function OverallRating() {
   const starCount = totalStars(reviewCount);
 
   const avgStars = rating(starCount, reviewCount);
-
   const starImg = `https://s3.us-east-2.amazonaws.com/ouiqln-review-img/review-stars/rating${avgStars}.png`;
+
   return (
     <>
       <div className={style.OverallRatingContainer}>
