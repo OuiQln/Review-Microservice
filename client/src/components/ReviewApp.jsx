@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReviewAggregate from './ReviewAggregate';
+
 /*
  This component needs to make the get requests for
  the review aggregate data to pass into ReviewAggregate

@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from './RatingSlider.css';
 
-//  this component needs name and label and rating props
+//  this component needs the coressponding rating for the slide
 
 function RatingSlider(props) {
   const { title, high, low } = props;

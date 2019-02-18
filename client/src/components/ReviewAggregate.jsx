@@ -5,9 +5,11 @@ import OverallRating from './OverallRating';
 import style from './reviewAggregate.css';
 
 /*
-  needs to have a overall rating component
-  rating distribution component
   advanced filter div at the bottom
+  overallRating needs props {
+    total num of stars
+    total num of reviews
+  }
 */
 
 function ReviewAggregate() {
