@@ -2,7 +2,8 @@ import React from 'react';
 import WriteReview from './WriteReview';
 import Histogram from './Histogram';
 import OverallRating from './OverallRating';
-import style from './reviewAggregate.css';
+import AdvancedFilters from './AdvancedFilters';
+import style from './ReviewAggregate.css';
 
 /*
   advanced filter div at the bottom
@@ -33,7 +34,7 @@ function ReviewAggregate() {
         <WriteReview />
       </div>
       <div className="advanced-filters">
-        <div>advanced Filters</div>
+        <AdvancedFilters />
       </div>
     </>
   );
