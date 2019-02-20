@@ -11,7 +11,7 @@ function StarRatingFilter() {
       <a href="#">
         <span className={style.FilterTitle}>
           Star Rating
-          <img src="https://s3.us-east-2.amazonaws.com/ouiqln-review-img/assets/downarrow.png" alt="down arrow" />
+          <img src="https://s3.us-east-2.amazonaws.com/ouiqln-review-img/assets/downarrowbold.png" alt="down arrow" />
         </span>
       </a>
     </div>
