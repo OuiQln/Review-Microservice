@@ -17,20 +17,20 @@ import style from './ReviewAggregate.css';
 function ReviewAggregate() {
   //  this component needs a prop determining if
   //  filtering is active
+  //  due to variable changing a child on a to affect other
+  //  consider hooks?
   let filterText;
 
-  if (false) {
+  if (true) {
     filterText = <span className={style.basedOnFilters}>Calculated based on filtering:</span>;
   }
 
   return (
     <>
+      {filterText}
       <div className={style.aggReview}>
-        <div>
-          {filterText}
-          <OverallRating />
-          <Histogram />
-        </div>
+        <OverallRating />
+        <Histogram />
         <WriteReview />
       </div>
       <div className="advanced-filters">

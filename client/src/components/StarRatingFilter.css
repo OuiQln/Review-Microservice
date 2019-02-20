@@ -1,0 +1,33 @@
+.FilterBoxDiv {
+  border: 2px solid #bebebe;
+  padding: 8px;
+  margin: 0 25px 0 0;
+  float: left;
+  font-family: Arial;
+  line-height: 1.5em;
+  color: #000000;
+  font-size: 16px;
+}
+
+.FilterBoxDiv a {
+  text-decoration: none;
+  color: #000;
+}
+
+.FilterBoxDiv a:hover{
+  color: #ff0000;
+}
+
+.FilterTitle {
+  padding-left: 8px;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.FilterTitle img{
+  margin-left: 27px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  width: 15px;
+  vertical-align: middle;
+}

@@ -12,7 +12,7 @@ function HistogramBarRow(props) {
   return (
     <div className={style.HistogramBarRow}>
       <span className={style.HistogramStarLabel}>
-        <span className={style.HistogramStarLabelText}>{title}</span>
+        <span className={style.HistogramStarLabelText}>{ title }</span>
       </span>
       <div className={style.HistogramBar}>
         <div className={style.HistogramFullBar} style={{ width }} />
