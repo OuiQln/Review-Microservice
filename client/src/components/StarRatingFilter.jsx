@@ -45,7 +45,7 @@ function StarRatingFilter() {
       >
       Black Box
         <ul>
-          <li><button type="button">hello</button></li>
+          <li><button type="button">hello world man here is text</button></li>
         </ul>
       </div>
     </div>
