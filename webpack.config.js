@@ -20,8 +20,20 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/,
-        loader: 'style-loader!css-loader?modules=true&localIdentName=[name]__[local]__[hash:base64:5]',
+        test: /.css$/,
+        use: [
+          {
+            loader: 'style-loader',
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              sourceMap: true,
+              modules: true,
+              localIdentName: '[local]___[hash:base64:5]',
+            },
+          },
+        ],
       },
       {
         test: /\.(png|woff|woff2|eot|ttf|svg)$/,

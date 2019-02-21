@@ -8,10 +8,10 @@ function StarRatingFilter() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let callState = (event) => {
-    if (!document.getElementById('ratingContainerStars').contains(event.target)) {
+    if (!document.getElementById(style.RatingContainer).contains(event.target)) {
       setDropdownOpen(!dropdownOpen);
       document.removeEventListener('mousedown', callState);
-    } else if (document.getElementById('starFilterContainer').contains(event.target)) {
+    } else if (document.getElementById(style.LabelContainer).contains(event.target)) {
       document.removeEventListener('mousedown', callState);
     }
   };
@@ -25,9 +25,9 @@ function StarRatingFilter() {
   }());
 
   return (
-    <div id="ratingContainerStars" className={style.mycontainer}>
+    <div id={style.RatingContainer} className={style.mycontainer}>
       <div
-        id="starFilterContainer"
+        id={style.LabelContainer}
         className={style.FilterBoxDiv}
         onClick={() => { setDropdownOpen(!dropdownOpen); }}
       >
@@ -39,7 +39,7 @@ function StarRatingFilter() {
         </a>
       </div>
       <div
-        id="dropdownStar"
+        id={style.DropDown}
         className={style.blackBox}
         style={dropdownOpen ? { display: 'block' } : {}}
       >
