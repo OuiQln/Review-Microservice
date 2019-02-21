@@ -32,3 +32,35 @@
   height: 20px;
   vertical-align: middle;
 }
+
+.blackBox {
+  display: none;
+  height: 210px;
+  width: 120px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  background: #fff;
+  position: relative;
+  top: 45px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+.mycontainer {
+  max-width: 200px;
+}
+
+/* .blackBox {
+  display: none;
+  position: relative;
+  margin-top: 9px;
+  margin-left: -10px;
+  height: 210px;
+  width: 120px;
+  top: 44px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #eaeaea;
+  background: #fff;
+  padding: 10px 10px 6px;
+} */
