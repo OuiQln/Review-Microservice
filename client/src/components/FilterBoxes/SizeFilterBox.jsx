@@ -2,9 +2,11 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
-import style from './StarRatingFilter.css';
+import style from './SizeFilterBox.css';
 
-function StarRatingFilter() {
+function SizeFilterBox(props) {
+  const { title } = props;
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let callState = (event) => {
@@ -33,7 +35,7 @@ function StarRatingFilter() {
       >
         <a href="#">
           <span className={style.FilterTitle}>
-            Star Rating
+            Size Purchased
             <img src="https://s3.us-east-2.amazonaws.com/ouiqln-review-img/assets/downarrowbold.png" alt="down arrow" />
           </span>
         </a>
@@ -43,13 +45,13 @@ function StarRatingFilter() {
         className={style.blackBox}
         style={dropdownOpen ? { display: 'block' } : {}}
       >
-      Black Box
+      A filter
         <ul>
-          <li><button type="button">hello world man here is text</button></li>
+          <li><button type="button">I am filter</button></li>
         </ul>
       </div>
     </div>
   );
 }
 
-export default StarRatingFilter;
+export default SizeFilterBox;

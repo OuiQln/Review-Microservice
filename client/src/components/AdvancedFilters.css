@@ -18,6 +18,7 @@
 }
 
 .FiltersBody {
+  display: flex;
   margin: 0;
   font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
   line-height: 1.5em;

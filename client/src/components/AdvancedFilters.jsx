@@ -1,5 +1,8 @@
 import React from 'react';
-import StarRatingFilter from './StarRatingFilter';
+import StarFilterBox from './FilterBoxes/StarFilterBox';
+import AgeFilterBox from './FilterBoxes/AgeFilterBox';
+import SizeFilterBox from './FilterBoxes/SizeFilterBox';
+import HeightFilterBox from './FilterBoxes/HeightFilterBox';
 import style from './AdvancedFilters.css';
 
 function AdvancedFilters() {
@@ -10,7 +13,10 @@ function AdvancedFilters() {
         <div className={style.FiltersBody}>
           {/* Should I add a separate component here? probably */}
           {/* Should pass in functions from the App to change state of which is being filtered */}
-          <StarRatingFilter />
+          <StarFilterBox />
+          <SizeFilterBox />
+          <AgeFilterBox />
+          <HeightFilterBox />
         </div>
       </div>
     </>
