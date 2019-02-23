@@ -2,7 +2,8 @@ import React from 'react';
 import WriteReview from './WriteReview';
 import Histogram from './Histogram';
 import OverallRating from './OverallRating';
-import style from './reviewAggregate.css';
+import AdvancedFilters from './AdvancedFilters';
+import style from './ReviewAggregate.css';
 
 /*
   advanced filter div at the bottom
@@ -16,24 +17,24 @@ import style from './reviewAggregate.css';
 function ReviewAggregate() {
   //  this component needs a prop determining if
   //  filtering is active
+  //  due to variable changing a child on a to affect other
+  //  consider hooks?
   let filterText;
 
-  if (false) {
+  if (true) {
     filterText = <span className={style.basedOnFilters}>Calculated based on filtering:</span>;
   }
 
   return (
     <>
+      {filterText}
       <div className={style.aggReview}>
-        <div>
-          {filterText}
-          <OverallRating />
-          <Histogram />
-        </div>
+        <OverallRating />
+        <Histogram />
         <WriteReview />
       </div>
       <div className="advanced-filters">
-        <div>advanced Filters</div>
+        <AdvancedFilters />
       </div>
     </>
   );

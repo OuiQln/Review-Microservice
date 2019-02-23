@@ -1,0 +1,28 @@
+.FilterAttributes {
+  float: none;
+  clear: both;
+  margin: 0 0 15px;
+  width: 100%;
+  font-weight: 400;
+}
+
+.AdvancedFiltersTitle {
+  line-height: 2;
+  font-size: 16px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 400;
+  color: #000000;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
+}
+
+.FiltersBody {
+  display: flex;
+  margin: 0;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
+  line-height: 1.5em;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
