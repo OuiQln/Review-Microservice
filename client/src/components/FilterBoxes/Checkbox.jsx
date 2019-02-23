@@ -23,3 +23,5 @@ Checkbox.propTypes = {
 };
 
 export default Checkbox;
+
+// checked needs to come from parent

@@ -33,7 +33,7 @@ function StarFilterBox() {
         className={style.FilterBoxDiv}
         onClick={() => { setDropdownOpen(!dropdownOpen); }}
       >
-        <a href="#">
+        <a href="#" style={dropdownOpen ? { color: '#ff0000' } : {}}>
           <span className={style.FilterTitle}>
             Star Rating
             <img src="https://s3.us-east-2.amazonaws.com/ouiqln-review-img/assets/downarrowbold.png" alt="down arrow" />
@@ -41,17 +41,17 @@ function StarFilterBox() {
         </a>
       </div>
       <div
-        id={style.DropDown}
+        // id={style.DropDown}
         className={style.blackBox}
-        style={dropdownOpen ? { display: 'block' } : {}}
+        style={dropdownOpen ? { display: 'flex' } : {}}
       >
-        <ul className={style.list}>
+        <div className={style.list}>
           {
             starFilters.map(({ name, key }) => {
               return (<LineItemFilter name={name} numOf={5} key={key} handleFilterToggle={() => {}} />);
             })
           }
-        </ul>
+        </div>
       </div>
     </div>
   );

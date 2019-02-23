@@ -12,3 +12,9 @@
   line-height: 1.5;
   margin-left: 5px;
 }
+
+.LineItem {
+  height: 30.5px;
+  width: 98px;
+  padding-bottom: 8px;
+}
