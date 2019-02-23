@@ -2,11 +2,19 @@
   border: 2px solid #bebebe;
   padding: 8px;
   margin: 0 25px 0 0;
+  width: 150px;
   float: left;
   font-family: Arial;
   line-height: 1.5em;
   color: #000000;
   font-size: 16px;
+}
+
+.list {
+  /* margin: 0; */
+  padding: 0;
+  list-style-type: none;
+  zoom: 1;
 }
 
 .FilterBoxDiv a {
@@ -34,6 +42,7 @@
 }
 
 .blackBox {
+  padding: 10px 10px 6px;
   display: none;
   height: 210px;
   width: 120px;

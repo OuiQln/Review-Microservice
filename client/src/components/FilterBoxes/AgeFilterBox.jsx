@@ -4,9 +4,7 @@
 import React, { useState } from 'react';
 import style from './AgeFilterBox.css';
 
-function AgeFilterBox(props) {
-  const { title } = props;
-
+function AgeFilterBox() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let callState = (event) => {

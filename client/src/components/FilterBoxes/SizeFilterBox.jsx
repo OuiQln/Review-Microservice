@@ -4,9 +4,7 @@
 import React, { useState } from 'react';
 import style from './SizeFilterBox.css';
 
-function SizeFilterBox(props) {
-  const { title } = props;
-
+function SizeFilterBox() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let callState = (event) => {

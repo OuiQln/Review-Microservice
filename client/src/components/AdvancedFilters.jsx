@@ -6,6 +6,13 @@ import HeightFilterBox from './FilterBoxes/HeightFilterBox';
 import style from './AdvancedFilters.css';
 
 function AdvancedFilters() {
+  /*
+    var obj = {
+                'starFilter': { 'numOf': 10, 'toggle': handleStarToggle },
+              }
+    obj.starFilter.numOf
+  */
+
   return (
     <>
       <div className={style.FilterAttributes}>

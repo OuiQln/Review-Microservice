@@ -3,10 +3,10 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
 import style from './StarFilterBox.css';
+import starFilters from './StarFilterCheckBoxes';
+import LineItemFilter from './LineItemFilter';
 
-function StarFilterBox(props) {
-  const { title } = props;
-
+function StarFilterBox() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   let callState = (event) => {
@@ -45,9 +45,12 @@ function StarFilterBox(props) {
         className={style.blackBox}
         style={dropdownOpen ? { display: 'block' } : {}}
       >
-      A filter
-        <ul>
-          <li><button type="button">I am filter</button></li>
+        <ul className={style.list}>
+          {
+            starFilters.map(({ name, key }) => {
+              return (<LineItemFilter name={name} numOf={5} key={key} handleFilterToggle={() => {}} />);
+            })
+          }
         </ul>
       </div>
     </div>
