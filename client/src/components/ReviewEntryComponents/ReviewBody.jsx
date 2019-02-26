@@ -16,10 +16,11 @@ function ReviewBody() {
         </div>
         {/* div in here about the Yes i reccommend */}
         <div className={style.WasHelpful}>
-          <div className={style.WasHelpfulText}>
+          <span className={style.WasHelpfulText}>
             Was this review helpful?
-          </div>
-          {/* thumb boxes need to be here */}
+          </span>
+          <span className={style.thumbUp} />
+          <span className={style.thumbDown} />
         </div>
       </div>
     </>
