@@ -4,12 +4,13 @@ import ReviewBody from './ReviewEntryComponents/ReviewBody';
 import RatingScales from './ReviewEntryComponents/RatingScales';
 import Attributes from './ReviewEntryComponents/Attributes';
 
-function ReviewEntry() {
+function ReviewEntry(props) {
 // this component needs to get the up to 4 currently visible reviews
+  const { name, location, age, size, reviewText, reviewTitle } = props.reviewData;
   return (
     <div className={style.ReviewEntryContainer}>
-      <Attributes />
-      <ReviewBody />
+      <Attributes name={name} location={location} age={age} size={size} />
+      <ReviewBody reviewText={reviewText} reviewTitle={reviewTitle} />
       <RatingScales />
     </div>
   );

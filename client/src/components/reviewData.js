@@ -3,7 +3,7 @@ const reviewArr = [
   {
     rating: 4.5,
     name: 'Mina Sorsok',
-    age: 69,
+    age: '18 to 24',
     fitRating: 2.5,
     lengthRating: 3.0,
     qualityRating: 5.0,
@@ -15,7 +15,7 @@ const reviewArr = [
   {
     rating: 2.3,
     name: 'Caroline Cang',
-    age: 24,
+    age: '25 to 29',
     fitRating: 3.4,
     lengthRating: 1.8,
     qualityRating: 4.5,
@@ -27,7 +27,7 @@ const reviewArr = [
   {
     rating: 3.7,
     name: 'Alex Liu',
-    age: 21,
+    age: '17 and Under',
     fitRating: 4.5,
     lengthRating: 2.7,
     qualityRating: 4.2,
@@ -39,7 +39,7 @@ const reviewArr = [
   {
     rating: 1.5,
     name: 'Julie Im',
-    age: 27,
+    age: '18 to 24',
     fitRating: 3.4,
     lengthRating: 4.0,
     qualityRating: 4.0,
@@ -51,7 +51,7 @@ const reviewArr = [
   {
     rating: 2.0,
     name: 'Gaby Pernama',
-    age: 19,
+    age: '65 and Above',
     fitRating: 3.0,
     lengthRating: 2.5,
     qualityRating: 1.7,
@@ -63,7 +63,7 @@ const reviewArr = [
   {
     rating: 4.0,
     name: 'Bryan Lee',
-    age: 21,
+    age: '18 to 24',
     fitRating: 2.4,
     lengthRating: 4.2,
     qualityRating: 2.5,
@@ -75,7 +75,7 @@ const reviewArr = [
   {
     rating: 2.7,
     name: 'Jennifer Haren',
-    age: 29,
+    age: '25 to 31',
     fitRating: 2.7,
     lengthRating: 5.0,
     qualityRating: 5.0,
@@ -87,7 +87,7 @@ const reviewArr = [
   {
     rating: 2.9,
     name: 'Andrew Ahn',
-    age: 21,
+    age: '21 to 29',
     fitRating: 4.3,
     lengthRating: 2.7,
     qualityRating: 0.0,
