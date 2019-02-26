@@ -1,12 +1,37 @@
 .ReviewBodyContainer {
   float: left;
+  width: 100%;
+  /* white-space: nowrap; */
 }
 
 .ReviewDate {
   font-family: 'Trebuchet MS';
+  padding-bottom: 4px;
   font: 400;
   text-transform: uppercase;
   font-size: 12px;
-  line-height: 2em;
   color: #636262;
 }
+
+.ReviewTitle {
+  color: #000000;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.ReviewText {
+  margin-top: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
+}
+
+.WasHelpfulText {
+  padding-top: 50px;
+}
+

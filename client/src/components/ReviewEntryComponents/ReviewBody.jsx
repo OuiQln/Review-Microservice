@@ -5,10 +5,24 @@ import style from './ReviewBody.css';
 function ReviewBody() {
   const timeNow = moment().format('LL');
   return (
-    <div className={style.ReviewBodyContainer}>
-      ReviewBody
-      <div className={style.ReviewDate}>{timeNow}</div>
-    </div>
+    <>
+      <div className={style.ReviewBodyContainer}>
+        <div className={style.ReviewDate}>{timeNow}</div>
+        <div className={style.ReviewTitle}>MEDIUM SIZE IS TOO WIDE</div>
+        <div className={style.ReviewText}>
+        The size chart on the UNIQLO website
+        is not accurate. According to the chart
+        I need a Large but even the Medium is too big.
+        </div>
+        {/* div in here about the Yes i reccommend */}
+        <div className={style.WasHelpful}>
+          <div className={style.WasHelpfulText}>
+            Was this review helpful?
+          </div>
+          {/* thumb boxes need to be here */}
+        </div>
+      </div>
+    </>
   );
 }
 

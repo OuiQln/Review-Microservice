@@ -1,15 +1,25 @@
 .RatingScale {
+}
+
+/* .RatingStars {
+  
+} */
+
+.RatingTitle {
+  color: black;
+  font-family: UniqloPro;
+  padding-bottom: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
 
 }
 
 .RatingStars {
-
-}
-
-.RatingTitle {
-
+  padding-left: 75px;
 }
 
 .RatingScaleContainer {
-  
+  margin-top: 19px;
+  padding-top: 19px;
+  font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
 }
