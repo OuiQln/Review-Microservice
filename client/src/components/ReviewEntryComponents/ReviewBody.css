@@ -1,0 +1,12 @@
+.ReviewBodyContainer {
+  float: left;
+}
+
+.ReviewDate {
+  font-family: 'Trebuchet MS';
+  font: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 2em;
+  color: #636262;
+}

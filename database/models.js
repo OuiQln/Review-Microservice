@@ -21,6 +21,8 @@ const ReviewSchema = mongoose.Schema({
   size: { type: String },
   gender: { type: String },
   height: { type: String },
+  reviewText: { type: String },
+  reviewTitle: { type: String },
 });
 
 const Review = mongoose.model('Review', ReviewSchema);

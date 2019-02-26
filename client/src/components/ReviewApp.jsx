@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import ReviewSection from './ReviewSection';
 import ReviewAggregate from './ReviewAggregate';
+import style from './ReviewApp.css';
 
 /*
  This component needs to make the get requests for
@@ -21,7 +23,9 @@ class ReviewApp extends Component {
     return (
       <div className="review-container">
         <ReviewAggregate />
+        <div className={style.LineBreak} />
         {/* this is where the mapped review entries will go */}
+        <ReviewSection />
       </div>
     );
   }

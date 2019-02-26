@@ -3,9 +3,10 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 import React, { useState } from 'react';
 import style from './StarFilterBox.css';
-import starFilters from './StarFilterCheckBoxes';
 import LineItemFilter from './LineItemFilter';
 
+//  this component needs as a prop, handler for checkbox click
+//  and the number of reviews per each star rating;
 function StarFilterBox() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
@@ -41,16 +42,15 @@ function StarFilterBox() {
         </a>
       </div>
       <div
-        // id={style.DropDown}
         className={style.blackBox}
         style={dropdownOpen ? { display: 'flex' } : {}}
       >
         <div className={style.list}>
-          {
-            starFilters.map(({ name, key }) => {
-              return (<LineItemFilter name={name} numOf={5} key={key} handleFilterToggle={() => {}} />);
-            })
-          }
+          <LineItemFilter name="1 Star" numOf={5} handleFilterToggle={() => {}} />
+          <LineItemFilter name="2 Stars" numOf={0} handleFilterToggle={() => {}} />
+          <LineItemFilter name="3 Stars" numOf={5} handleFilterToggle={() => {}} />
+          <LineItemFilter name="4 Stars" numOf={5} handleFilterToggle={() => {}} />
+          <LineItemFilter name="5 Stars" numOf={5} handleFilterToggle={() => {}} />
         </div>
       </div>
     </div>
