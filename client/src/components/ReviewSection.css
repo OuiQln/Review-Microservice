@@ -1,0 +1,9 @@
+.Paginator {
+  display: flex;
+  justify-content: center;
+}
+
+.Paginator img {
+  height: 52px;
+  cursor: pointer;
+}
