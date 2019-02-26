@@ -11,10 +11,11 @@
   padding-bottom: 3px;
   font-size: 16px;
   text-transform: uppercase;
+
 }
 
 .RatingStars {
-
+  padding-left: 75px;
 }
 
 .RatingScaleContainer {

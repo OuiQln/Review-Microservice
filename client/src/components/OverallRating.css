@@ -28,6 +28,8 @@
 .RatingOverall {
   overflow: hidden;
   clear: both;
+  display: flex;
+  flex-direction: column;
 }
 
 .Label {
