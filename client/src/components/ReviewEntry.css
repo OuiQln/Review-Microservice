@@ -1,0 +1,18 @@
+.ReviewEntryContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 45px;
+  padding-top: 45px;
+}
+
+/* .Attributes {
+
+}
+
+.ReviewBody {
+
+}
+
+.RatingScales {
+
+} */

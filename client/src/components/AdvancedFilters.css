@@ -4,6 +4,7 @@
   margin: 0 0 15px;
   width: 100%;
   font-weight: 400;
+  /* position: relative; */
 }
 
 .AdvancedFiltersTitle {
@@ -19,6 +20,8 @@
 
 .FiltersBody {
   display: flex;
+  /* position: absolute;
+  top: 300px; */
   margin: 0;
   font-family: "DIN Next W01 Regular",Trebuchet MS,sans-serif;
   line-height: 1.5em;
